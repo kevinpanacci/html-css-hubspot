@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+/* INIZIO HEADER */
+header {
+    margin: 0 auto;
+}
+
+.banner {
+    width: 1135px;
+    height: 70px;
+    background-color: red;
+}
+
+.logo {
+    width: 1135px;
+    height: 70px;
+    background-color: yellow;
+}
+/* FINE HEADER */
+/* INIZIO BLOCCO 1 */
+.container-uno {
+    width: 1135px;
+    height: 500px;
+    background-color: blue;
+}
+/* FINE BLOCCO 1 */
+/* INIZIO BLOCCO 2 */
+.container-due {
+    width: 1135px;
+    height: 1300px;
+    background-color: green;
+}
+/* FINE BLOCCO 2 */
+/* INIZIO BLOCCO 3 */
+.container-tab {
+    width: 1135px;
+    height: 700px;
+    background-color: yellow;
+}
+/* FINE BLOCCO 3 */
+/* INIZIO BLOCCO 4 */
+.container-tre {
+    width: 1135px;
+    height: 700px;
+    background-color: grey;
+}
+/* FINE BLOCCO 4 */
+/* INIZIO FOOTER */
+footer {
+    height: 500px;
+    width: 1135px;
+    background-color: red;
+}
+/* FINE FOOTER */
