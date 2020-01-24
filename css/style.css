@@ -12,27 +12,136 @@
 /* INIZIO HEADER */
 header {
     margin: 0 auto;
+    height: 100px;
+    padding: 35px 20px;
+    line-height: 50px;
+}
+/* Logo + navbar */
+#logo {
+    float: left;
 }
 
+#navbar {
+    line-height: 30px;
+    float: right;
+}
+
+#navbar li {
+    float: left;
+    list-style: none;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #33475b;
+}
+
+/* fine logo */
 .banner {
     width: 1135px;
-    height: 70px;
-    background-color: red;
+    height: 100px;
+    background-color: #425b76;
+    text-align: left;
 }
 
-.logo {
-    width: 1135px;
-    height: 70px;
-    background-color: yellow;
+#mhe {
+    width: 900px;
+    height: 100px;
+    background-color: #425b76;
+    float: left;
+    padding-left: 50px;
+    padding-top: 32px;
+}
+
+.bottone {
+    height: 100px;
+    width: 200px;
+    float: right;
+    position: relative;
+}
+
+.banner p {
+    color: white;
+    font-size: 17px;
+}
+
+.banner button {
+    float: right;
+}
+
+button {
+    cursor: pointer;
+}
+
+#learn-more {
+    background-color: white;
+    color: #33476a;
+    border-radius: 2px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 16px;
 }
 /* FINE HEADER */
+
+
+
 /* INIZIO BLOCCO 1 */
 .container-uno {
     width: 1135px;
     height: 500px;
     background-color: blue;
+    padding-left: 20px;
 }
+
+.jumbotron {
+    height: 500px;
+    width:  400px;
+    background-color: red;
+    color: #33475b;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 17px;
+    text-align: left;
+}
+
+#download {
+    padding: 26px 48px;
+    background-color: #ff7a59;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+#micro {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
 /* FINE BLOCCO 1 */
+
+
+
+
+
 /* INIZIO BLOCCO 2 */
 .container-due {
     width: 1135px;
