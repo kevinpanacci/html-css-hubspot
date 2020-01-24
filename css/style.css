@@ -94,15 +94,16 @@ button {
 .container-uno {
     width: 1135px;
     height: 500px;
-    background-color: blue;
     padding-left: 20px;
+    border-bottom: 5px solid #33475b;
 }
 
 .jumbotron {
+    padding-top: 60px;
     height: 500px;
     width:  400px;
-    background-color: red;
     color: #33475b;
+    border-bottom: 5px solid #33475b;
 }
 
 h1 {
@@ -129,26 +130,104 @@ h1 {
 #micro {
     font-size: 15px;
 }
-
-
-
-
-
-
-
 /* FINE BLOCCO 1 */
-
-
-
-
-
 /* INIZIO BLOCCO 2 */
+
 .container-due {
     width: 1135px;
     height: 1300px;
     background-color: green;
+    position: relative;
 }
+/* Inizio wrap logo */
+.logo-wrap {
+    height: 350px;
+    padding: 75px 32px;
+    background-color: #f5f8fa;
+    text-align: center;
+    color: #33475b;
+}
+
+h2 {
+    margin: 20px;
+    font-size: 36px;
+}
+
+.logo-wrap img {
+    height: 150px;
+    width: 200px;
+}
+
+.logo-wrap p {
+    font-size: 17px;
+}
+/* fine wrap logo */
+/* inizio wrap CRM */
+.crm-wrap {
+    height: 350px;
+    padding: 25px;
+    background-color: #f5f8fa;
+}
+
+.image-card {
+    height: 300px;
+    width: 385px;
+    background-color: red;
+    text-align: center;
+}
+
+.image-card img {
+    height: 100px;
+    width: 170px;
+    padding-left: 80px;
+}
+
+#crm-button {
+    background-color: #ff7a59;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+}
+
+.crm {
+    height: 300px;
+    width: 700px;
+    background-color: blue;
+    float: right;
+    position: relative;
+    bottom: 100%;
+    color: #33475b;
+}
+
+
+
+
+/* fine wrap CRM */
+
+
+
+
+
+
+
+
+
+
+
+
 /* FINE BLOCCO 2 */
+
+
+
+
+
+
+
+
+
+
+
 /* INIZIO BLOCCO 3 */
 .container-tab {
     width: 1135px;
