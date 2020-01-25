@@ -231,16 +231,18 @@ h4 {
 
 .cards {
     height: 600px;
+    position: absolute;
+    background-color: #f5f8fa;
 }
 
 .card {
-    background-color: green;
     height: 600px;
     width: 33.3333%;
     color: #33475b;
     text-align: center;
     float: left;
     padding: 30px;
+    background-color: white;
 }
 
 #desc {
@@ -278,21 +280,6 @@ h4 {
 
 
 /* FINE BLOCCO 2 */
-
-
-
-
-
-
-
-/* DA ELIMINARE */
-.container-da-eliminare {
-    height: 500px;
-    background-color: red;
-}
-/* DA ELIMINARE */
-
-
 /* INIZIO BLOCCO 3 */
 .container-tab {
     width: 1135px;
@@ -352,7 +339,6 @@ h4 {
 }
 .logos-wrapper {
     height: 200px;
-    background-color: blue;
 }
 
 .text-wrapper {
@@ -360,14 +346,104 @@ h4 {
     width: 30%;
     text-align: left;
     color: #33475b;
-    padding: 20px;
+    padding: 30px;
+    position: absolute;
+    margin-left: 50px;
 }
 
 .text-wrapper p {
     font-size: 20px;
 }
 
+.text-wrapper h2 {
+    margin: 20px 20px 0 0;
+}
 
+.logos {
+    height: 200px;
+    width: 70%;
+    float: right;
+}
+
+.line-1 {
+    height: 100px;
+    margin-left: 80px;
+}
+
+.line-2 {
+    height: 100px;
+    margin-left: 80px;
+}
+
+.logos img {
+    padding-left: 30px;
+}
+
+
+
+/* sizing loghi*/
+img.atlassian {
+    width: 110px;
+    height: 13px;
+}
+
+img.doordash {
+    width: 110px;
+    height: 13px;
+}
+
+img.crowd {
+    width: 110px;
+    height: 30px;
+}
+
+img.purple {
+    width: 110px;
+    height: 34px;
+}
+
+img.subaru {
+    width: 110px;
+    height: 37px;
+}
+
+img.wistia {
+    width: 110px;
+    height: 17px;
+}
+
+img.classpass {
+    width: 110px;
+    height: 43px;
+}
+
+img.vmware {
+    width: 110px;
+    height: 23px;
+}
+/*fine sizing */
+.start-cta {
+    height: 400px;
+    text-align: left;
+    margin-left: 32px;
+}
+
+.start-cta h2 {
+    color: #33475b;
+    margin-left: 0;
+}
+
+.start-cta p {
+    color: #33475b;
+}
+
+.start-cta img {
+    float: right;
+    height: 400px;
+    position: relative;
+    bottom: 85%;
+    right: 5%;
+}
 
 
 
