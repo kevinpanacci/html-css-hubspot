@@ -13,6 +13,7 @@
 header {
     margin: 0 auto;
     height: 100px;
+    width: 1135px;
     padding: 35px 20px;
     line-height: 50px;
 }
@@ -284,23 +285,94 @@ h4 {
 
 
 
-
-
+/* DA ELIMINARE */
+.container-da-eliminare {
+    height: 500px;
+    background-color: red;
+}
+/* DA ELIMINARE */
 
 
 /* INIZIO BLOCCO 3 */
 .container-tab {
     width: 1135px;
     height: 700px;
-    background-color: yellow;
+    background-color: #00abb6;
+    color: white;
+    text-align: center;
 }
+
+.int {
+    height: 300px;
+    padding-top: 20px;
+}
+
+.tab {
+    height: 200px;
+    display: flex;
+    margin-left: 45px;
+}
+
+.tab h2 {
+    margin: 0;
+}
+
+.cards-2 {
+    height: 200px;
+    width: 23%;
+    padding: 30px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.cards-2:nth-child(4n) {
+    border-right: 0;
+}
+
+.cards-2:nth-child(1) {
+    border-left: 0;
+}
+
+.second .cards-2 {
+    border-bottom: 0;
+}
+
 /* FINE BLOCCO 3 */
+
 /* INIZIO BLOCCO 4 */
 .container-tre {
     width: 1135px;
     height: 700px;
-    background-color: grey;
+    background-color: white;
 }
+
+.blanc {
+    height: 50px;
+    background-color: white;
+}
+.logos-wrapper {
+    height: 200px;
+    background-color: blue;
+}
+
+.text-wrapper {
+    height: 200px;
+    width: 30%;
+    text-align: left;
+    color: #33475b;
+    padding: 20px;
+}
+
+.text-wrapper p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
 /* FINE BLOCCO 4 */
 /* INIZIO FOOTER */
 footer {
