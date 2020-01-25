@@ -129,7 +129,7 @@ h1 {
 }
 
 #micro {
-    font-size: 15px;
+    font-size: 13px;
 }
 /* FINE BLOCCO 1 */
 /* INIZIO BLOCCO 2 */
@@ -444,16 +444,93 @@ img.vmware {
     bottom: 85%;
     right: 5%;
 }
-
-
-
-
-
 /* FINE BLOCCO 4 */
 /* INIZIO FOOTER */
 footer {
-    height: 500px;
+    height: 600px;
     width: 1135px;
-    background-color: red;
+    position: absolute;
+    color: #cbd6e2;
+    background-color: #33475b;
 }
+
+.cta-1 {
+    height: 400px;
+    width: 1135px;
+    display: flex;
+    padding: 0 32px;
+}
+
+.column {
+    height: 400px;
+    width: 25%;
+    padding-top: 60px;
+}
+
+.cta-1 ul {
+    list-style: none;
+}
+
+ul h5 {
+    color: white;
+    font-size: 16px;
+}
+
+#support {
+    border-radius: 5px;
+    color: #33475b;
+    padding: 8px 15px;
+}
+
+.cta-1 li {
+    padding: 6px 0;
+}
+
+.cta-2 {
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #cbd6d5;
+    padding-top: 25px;
+}
+
+.cta-2 ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.cta-2 ul li {
+    padding: 8px 16px;
+}
+
+.cta-3 {
+    height: 120px;
+    width: 100%;
+    padding: 32px 32px;
+}
+
+.cta-3 img {
+    padding-bottom: 5px;
+}
+
+.copyright {
+    height: 100px;
+    width: 250px;
+    float: right;
+    position: relative;
+    bottom: 80%;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #cbd6d5;
+}
+
+
+
+
+
+
+
+
 /* FINE FOOTER */
