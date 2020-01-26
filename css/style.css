@@ -237,12 +237,13 @@ h4 {
 
 .card {
     height: 600px;
-    width: 33.3333%;
+    width: 30.7%;
     color: #33475b;
     text-align: center;
     float: left;
-    padding: 30px;
     background-color: white;
+    margin-left: 2%;
+
 }
 
 #desc {
@@ -486,6 +487,11 @@ ul h5 {
     padding: 6px 0;
 }
 
+.column a {
+    text-decoration: none;
+    color: #cbd6e2;
+}
+
 .cta-2 {
     height: 80px;
     width: 100%;
@@ -524,6 +530,7 @@ ul h5 {
 .copyright a {
     text-decoration: none;
     color: #cbd6d5;
+    padding-left: 30px;
 }
 
 
