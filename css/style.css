@@ -106,6 +106,7 @@ button {
     height: 500px;
     padding-left: 32px;
     border-bottom: 5px solid #33475b;
+    background-color: #fff2ee;
 }
 
 .jumbotron {
@@ -145,14 +146,14 @@ h1 {
 
 .container-due {
     width: 1135px;
-    height: 1300px;
+    height: 1450px;
     position: relative;
+    background-color: #f5f8fa;
 }
 /* Inizio wrap logo */
 .logo-wrap {
     height: 350px;
     padding: 75px 32px;
-    background-color: #f5f8fa;
     text-align: center;
     color: #33475b;
 }
@@ -255,7 +256,10 @@ h4 {
     float: left;
     background-color: white;
     margin-left: 2%;
+}
 
+.card i {
+    padding: 0 5px 5px 0;
 }
 
 #desc {
@@ -293,7 +297,7 @@ h4 {
 }
 
 #bt-start {
-    padding: 12px 24px;
+    padding: 18px 24px;
     background-color: #ff7a59;
     border: none;
     border-radius: 5px;
@@ -307,7 +311,7 @@ h4 {
 /* INIZIO BLOCCO 3 */
 .container-tab {
     width: 1135px;
-    height: 700px;
+    height: 900px;
     background-color: #00abb6;
     color: white;
     text-align: center;
@@ -315,14 +319,17 @@ h4 {
 
 .int {
     height: 300px;
-    padding-top: 20px;
+    padding-top: 100px;
 }
 
 .tab {
     height: 200px;
     display: flex;
     margin-left: 45px;
+    padding-top: 100px;
 }
+
+
 
 .tab h2 {
     margin: 0;
@@ -353,7 +360,7 @@ h4 {
 /* INIZIO BLOCCO 4 */
 .container-tre {
     width: 1135px;
-    height: 700px;
+    height: 800px;
     background-color: white;
 }
 
@@ -387,6 +394,7 @@ h4 {
     height: 200px;
     width: 70%;
     float: right;
+    padding-top: 30px;
 }
 
 .line-1 {
@@ -450,6 +458,8 @@ img.vmware {
     height: 400px;
     text-align: left;
     margin-left: 32px;
+    position: relative;
+    padding-top: 100px;
 }
 
 .start-cta h2 {
@@ -462,11 +472,12 @@ img.vmware {
 }
 
 .start-cta img {
-    float: right;
     height: 400px;
-    position: relative;
-    bottom: 85%;
-    right: 5%;
+    position: absolute;
+    left: 55%;
+    bottom: 1%;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 /* FINE BLOCCO 4 */
 /* INIZIO FOOTER */
@@ -530,6 +541,11 @@ ul h5 {
 
 .cta-2 ul li {
     padding: 8px 16px;
+}
+
+.cta-2 a {
+    text-decoration: none;
+    color: #cbd6e2;
 }
 
 .cta-3 {
