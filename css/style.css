@@ -9,6 +9,15 @@
     display: table;
     clear: both;
 }
+
+body {
+ font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* INIZIO HEADER */
 header {
     margin: 0 auto;
@@ -95,7 +104,7 @@ button {
 .container-uno {
     width: 1135px;
     height: 500px;
-    padding-left: 20px;
+    padding-left: 32px;
     border-bottom: 5px solid #33475b;
 }
 
@@ -208,13 +217,13 @@ h4 {
 }
 
 #description {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 #feat {
     font-size: 15px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .crm ul {
@@ -226,6 +235,9 @@ h4 {
     margin-right: 15px;
 }
 
+.crm i {
+    padding: 0;
+}
 /* fine wrap CRM */
 /* Cards */
 
@@ -250,6 +262,15 @@ h4 {
     margin: 15px 0;
 }
 
+.card p {
+    text-align: left;
+    padding: 0 32px;
+}
+
+#feat {
+    text-align: left;
+}
+
 .card img {
     height: 150px;
     margin-bottom: 20px;
@@ -262,6 +283,8 @@ h4 {
 
 .card ul li {
     margin-bottom: 5px;
+    text-align: left;
+    padding: 0 32px;
 }
 
 .cards hr {
@@ -533,6 +556,9 @@ ul h5 {
     padding-left: 30px;
 }
 
+i {
+    padding: 20px 25px 0 0;
+}
 
 
 
